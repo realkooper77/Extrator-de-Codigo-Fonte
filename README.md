@@ -9,11 +9,19 @@ TERMUX
 MODO DE USO:
 
 apt upgrade
+
 apt update
+
 apt install python
+
 pip install lxml
+
 pip install bs4
+
 pip iinstall requests
+
 git clone https://github.com/realkooper77/Extrator-de-Codigo-Fonte
+
 cd Extrator-de-Codigo-Fonte
+
 python rasp.py
