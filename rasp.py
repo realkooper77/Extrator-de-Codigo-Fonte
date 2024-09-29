@@ -11,6 +11,8 @@ headers = {
 
 os.system("cls")
 
+os.system("clear")
+
 texto = "Seja bem vindo ao progama da D3S3RT0RA"
 
 for letra in texto:
@@ -24,7 +26,6 @@ sou = BeautifulSoup(r.text, "lxml")
 # Exibir o código-fonte no terminal
 print(sou.prettify())
 
-# Salvar o código-fonte em 'semer.txt'
 with open("semente.txt", "a", encoding="utf-8") as de:
     de.write(sou.prettify())  # Salvar a saída formatada
     de.write("\n\n")  # Adicionar duas quebras de linha para separar as entradas
